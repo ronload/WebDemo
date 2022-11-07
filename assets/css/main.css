@@ -14,7 +14,7 @@ body.is-preload *{
 	transition: none !important;
 }
 
-body{
+body {
 	color: rgba(255, 255, 255, 0.75);
 	font-family: "Roboto", Helvetica, sans-serif;
 	font-size: 15pt;
@@ -27,7 +27,6 @@ p {
 }
 
 /* header */
-
 h1, h2, h3, h4, h5, h6 {
 	color: #ffffff;
 	font-weight: 300;
@@ -44,32 +43,6 @@ h1 {
 	font-size: 2em;
 	line-height: 1.5em;
 	letter-spacing: -0.025em;
-}
-
-h2 {
-	font-size: 1.5em;
-	line-height: 1.5em;
-}
-
-
-h3 {
-	font-size: 1.35em;
-	line-height: 1.5em;
-}
-
-h4 {
-	font-size: 1.1em;
-	line-height: 1.5em;
-}
-
-h5 {
-	font-size: 0.9em;
-	line-height: 1.5em;
-}
-
-h6 {
-	font-size: 0.7em;
-	line-height: 1.5em;
 }
 
 /* Loader */
@@ -158,6 +131,36 @@ body.landing:after {
 	margin: 0.5em 0 0 0;
 	top: 0;
 }
+
+#banner .content #box {
+	width: 380px;
+	margin: 30px auto;
+	font-family: 'Microsoft YaHei';
+	font-size: 14px;
+}
+#banner .content #box input {
+	width: 260px;
+	border: 1px solid #e2e2e2;
+	height: 30px;
+	float: left;
+
+	background-repeat: no-repeat;
+	background-size: 25px;
+	background-position:5px center;
+	padding:0 0 0 40px;
+}
+
+#banner .content #box #search {
+	width: 78px;
+	height: 32px;
+	float: right;
+	background: rgb(116, 112, 112);
+	color: white;
+	text-align: center;
+	line-height: 32px;
+	cursor: pointer;
+}
+
 
 #banner .content .image {
 	border-radius: 100%;
