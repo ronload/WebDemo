@@ -142,22 +142,29 @@ body.landing:after {
 	height: 30px;
 	background-color: transparent;
 	border-style: none;
-	border-bottom-style: solid;
+	border-bottom: solid whitesmoke;
+	text-align: start;
 	background-repeat: no-repeat;
 	background-size: 25px;
-	background-position:5px center;
-	padding:0 0 0 40px;
+}
+
+#banner .content #box input::placeholder {
+	color: whitesmoke;	
+	font-size: larger;
+	text-align: start;
 }
 
 #banner .content #box #search {
-	width: 65px;
+	width: 70px;
 	height: 30px;
 	float: right;
-	background-color: transparent;
-	border-style: ridge;
+	margin-top: 5px;
+	background-color: #ffffff;
+	font-family: "Roboto", Helvetica, sans-serif;
+	color:black;
+	border-style: none;
+	border-radius: 10%;
 	font-weight: 400;
-	font-size: large;
-	color: whitesmoke;
 	text-align: center;
 	cursor: pointer;
 }
