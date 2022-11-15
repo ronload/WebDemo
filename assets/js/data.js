@@ -99,4 +99,180 @@ var data = [
         ],
         "rest": none
     },
+    {
+        "name": "勝王",
+        "metro_line": "淡水信義線",
+        "metro_station": "雙連站",
+        "evaluation": "4.2",
+        "address": "台北市中山區林森北路306號",
+        "contact": none,
+        "business_hour": [
+            "11:30-14:00", 
+            "17:00-20:30"
+        ],
+        "rest": none
+    },
+    {
+        "name": "烹星",
+        "metro_line": "淡水信義線",
+        "metro_station": "雙連站",
+        "evaluation": "4.6",
+        "address": "台北市中山區中山北路二段59巷67號",
+        "contact": none,
+        "business_hour": [
+            "11:30-14:00", 
+            "17:00-20:30"
+        ],
+        "rest": none
+    },
+    {
+        "name": "隱家拉麵赤峰店",
+        "metro_line": "淡水信義線",
+        "metro_station": "雙連站",
+        "evaluation": "4.1",
+        "address": "台北市大同區南京西路25巷28號",
+        "contact": "02-2559-5970",
+        "business_hour": [
+            "11:30-14:00", 
+            "16:30-22:00"
+        ],
+        "rest": none
+    },
+    {
+        "name": "蘭丸拉麵",
+        "metro_line": "淡水信義線",
+        "metro_station": "中山站",
+        "evaluation": "3.7",
+        "address": "台北市大同區南京西路18巷6-3號",
+        "contact": none,
+        "business_hour": [
+            "11:30-13:30", 
+            "17:30-22:00"
+        ],
+        "rest": none
+    },
+    {
+        "name": "鬼金棒拉麵",
+        "metro_line": "淡水信義線",
+        "metro_station": "中山站",
+        "evaluation": "4.2",
+        "address": "台北市大同區南京西路18巷6-3號",
+        "contact": none,
+        "business_hour": [
+            "11:30-14:00", 
+            "17:00-20:30"
+        ],
+        "rest": none
+    },
+    {
+        "name": "京都柚子豚骨拉麵研究中心",
+        "metro_line": "淡水信義線",
+        "metro_station": "中山站",
+        "evaluation": "3.9",
+        "address": "台北市中山區長安西路19巷2弄的23號",
+        "contact": "02-2563-0689",
+        "business_hour": [
+            "11:30-15:00", 
+            "17:00-20:30"
+        ],
+        "rest": none
+    },
+    {
+        "name": "千雲拉麵",
+        "metro_line": "淡水信義線",
+        "metro_station": "中山站",
+        "evaluation": "4.4",
+        "address": "台北市中山區林森北路105-1號",
+        "contact": "02-2523-3198",
+        "business_hour": [
+            "12:00-15:30", 
+            "17:00-03:00"
+        ],
+        "rest": none
+    },
+    {
+        "name": "麵屋武藏-神山",
+        "metro_line": "淡水信義線",
+        "metro_station": "中山站",
+        "evaluation": "4.2",
+        "address": "台北市中山區中山北路一段121巷18號",
+        "contact": "02-2542-8222",
+        "business_hour": [
+            "11:30-21:30"
+        ],
+        "rest": none
+    },
+    {
+        "name": "麵屋一燈",
+        "metro_line": "淡水信義線",
+        "metro_station": "中山站",
+        "evaluation": "3.9",
+        "address": "台北市中山區南京東路一段29號",
+        "contact": "02-2511-6161",
+        "business_hour": [
+            "11:00-01:00"
+        ],
+        "rest": none
+    },
+    {
+        "name": "屯京拉麵-中山店",
+        "metro_line": "淡水信義線",
+        "metro_station": "中山站",
+        "evaluation": "4.1",
+        "address": "台北市中山區中山北路一段141號",
+        "contact": "02-2562-5066",
+        "business_hour": [
+            "11:00-22:30"
+        ],
+        "rest": none
+    },
+    {
+        "name": "半熟堂",
+        "metro_line": "淡水信義線",
+        "metro_station": "中山站",
+        "evaluation": "4.1",
+        "address": "台北市中山區南京西路14號號B1",
+        "contact": "02-2581-3358 #1814",
+        "business_hour": [
+            "11:30-14:00", 
+            "17:30-20:30"
+        ],
+        "rest": none
+    },
+    {
+        "name": "一風堂",
+        "metro_line": "淡水信義線",
+        "metro_station": "中山站",
+        "evaluation": "4.2",
+        "address": "台北市中山區中山北路一段85號",
+        "contact": "02-2562-9222",
+        "business_hour": [
+            "11:30-23:59", 
+        ],
+        "rest": none
+    },
+    {
+        "name": "麵屋武藏-本店",
+        "metro_line": "淡水信義線",
+        "metro_station": "台北車站",
+        "evaluation": "4.3",
+        "address": "台北市中正區忠孝西路一段36號B1",
+        "contact": "02-2371-1889",
+        "business_hour": [
+            "11:30-20:30", 
+        ],
+        "rest": none
+    },
+    {
+        "name": "屯京拉麵-台北站前店",
+        "metro_line": "淡水信義線",
+        "metro_station": "台北車站",
+        "evaluation": "4.2",
+        "address": "台北市中正區忠孝西路一段38號B1",
+        "contact": "02-2388-7166",
+        "business_hour": [
+            "11:00-22:00", 
+        ],
+        "rest": none
+    },
 ]
