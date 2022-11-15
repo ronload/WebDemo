@@ -111,6 +111,7 @@ body.landing:after {
 #banner .content {
 	display: inline-block;
 	margin-left: 20%;
+	margin-top: 10%;
 	max-width: 95%;
 	padding: 6em;
 	left: 50%;
