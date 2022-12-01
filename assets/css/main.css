@@ -150,11 +150,12 @@ body.landing:after {
 	text-align: start;
 	background-repeat: no-repeat;
 	background-size: 25px;
+	color: whitesmoke;
 }
 
 #banner .content #box input::placeholder {
-	color: whitesmoke;	
-	font-size: larger;
+	color: #918d8d;	
+	font-size: large;
 	text-align: start;
 }
 
@@ -162,17 +163,15 @@ body.landing:after {
 	width: 70px;
 	height: 30px;
 	float: right;
-	margin-top: 5px;
 	background-color: #ffffff;
 	font-family: "Roboto", Helvetica, sans-serif;
 	color:black;
 	border-style: none;
 	border-radius: 10%;
-	font-weight: 400;
+	font-weight: 100;
 	text-align: center;
 	cursor: pointer;
 }
-
 
 #banner .content .image {
 	border-radius: 100%;
@@ -188,46 +187,6 @@ body.landing:after {
 	display: block;
 	width: 100%;
 	height: 100%;
-}
-
-/*側邊欄選擇器*/
-.sidenav {
-    height: 100%;
-    width: 0; /*原始寬度*/
-    position: fixed;
-    /*z-index、top、left共同控制側欄的懸浮（上方1，下方-1）*/
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #111;
-    overflow-x: hidden;
-    transition: 0.5s; /*側欄延遲0.5s顯示*/
-    padding-top: 60px;
-	float: left;
-}
-
-/*側邊欄標籤選擇器*/
-.sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s; /*標籤延遲0.3s顯示*/
-}
-
-/*側欄標籤和關閉按鈕光標的效果*/
-.sidenav a:hover, .offcanvas a:focus{
-    color: #f1f1f1;
-}
-
-/*側欄和關閉按鈕的位置選擇器*/
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
 }
 
 /*主體內容*/
