@@ -135,44 +135,6 @@ body.landing:after {
 	top: 0;
 }
 
-#banner .content #box {
-	width: 380px;
-	margin: 10px auto;
-	font-family: 'Microsoft YaHei';
-	font-size: 14px;
-}
-#banner .content #box input {
-	width: 300px;
-	height: 30px;
-	background-color: transparent;
-	border-style: none;
-	border-bottom: solid whitesmoke;
-	text-align: start;
-	background-repeat: no-repeat;
-	background-size: 25px;
-	color: whitesmoke;
-}
-
-#banner .content #box input::placeholder {
-	color: #918d8d;	
-	font-size: large;
-	text-align: start;
-}
-
-#banner .content #box #search {
-	width: 70px;
-	height: 30px;
-	float: right;
-	background-color: #ffffff;
-	font-family: "Roboto", Helvetica, sans-serif;
-	color:black;
-	border-style: none;
-	border-radius: 10%;
-	font-weight: 100;
-	text-align: center;
-	cursor: pointer;
-}
-
 #banner .content .image {
 	border-radius: 100%;
 	display: inline-block;
