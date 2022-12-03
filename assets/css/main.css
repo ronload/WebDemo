@@ -2,6 +2,8 @@
 
 html {
     background: #1c1d26;
+    height: 100%;
+    margin: 0;
 }
 
 body {
@@ -10,7 +12,11 @@ body {
 	font-size: 15pt;
 	font-weight: 100;
 	line-height: 1.75em;
-    display: flex;
+}
+
+.wrap {
+    min-height: 100%; /*外層高度100%*/
+    margin-bottom: -50px; /*隨footer高度需做調整*/
 }
 
 .banner {
@@ -63,4 +69,40 @@ body {
 
 .banner #box #btn input:hover {
     opacity: 0.5;
+}
+
+.footer {
+    display: flex;
+    padding: 10px;
+}
+
+.footer .footerBox {
+    min-width: 50%;
+}
+
+.footer .footerBox hr {
+    background-color: grey;
+    border: 0;
+    height: 1px;
+    opacity: 30%;
+}
+
+.footer .footerBox h2 {
+    font-weight: 1000;
+    font-size: x-large;
+}
+
+.footer .footerBox #content {
+    margin-bottom: 20px;
+}
+
+.footer .footerBox #content .contactBox {
+    display: inline-flex;
+    vertical-align: center;
+}
+
+.footer .footerBox #content .contactBox img{
+    width: 37px;
+    border-radius: 50%;
+    margin-right: 10px;
 }
