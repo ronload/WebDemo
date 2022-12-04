@@ -45,6 +45,7 @@ body {
 @media screen and (max-width: 768px) {
     .banner #box #content {
         margin-bottom: 1em;
+        font-size: 1em;
     }
     .banner #box #btn {
         display: block;
