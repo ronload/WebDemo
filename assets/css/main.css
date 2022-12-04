@@ -44,12 +44,16 @@ body {
 
 @media screen and (max-width: 768px) {
     .banner #box #content {
-        margin-bottom: 1em;
-        font-size: 0.1em;
+        font-size: 0.5em;
     }
     .banner #box #btn {
         display: block;
+        margin-left: 15%;
     }
+    .footer {
+        display: none;
+    }
+    
 }
 
 .banner #box #content #text {
@@ -61,7 +65,6 @@ body {
 .banner #box #content #image img{
     border-radius: 50%;
     width: 6em;
-    overflow: hidden;
     margin-left: 1em;
 }
 
