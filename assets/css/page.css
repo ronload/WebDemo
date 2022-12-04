@@ -7,7 +7,7 @@ html {
 body {
     color: rgba(255, 255, 255, 0.75);
 	font-family: "Roboto", Helvetica, sans-serif;
-	font-size: 15pt;
+	font-size: 1.2em;
 	font-weight: 100;
 	line-height: 1.75em;
     display: flex;
@@ -30,6 +30,13 @@ body {
 
 .banner .content {
     width: 40%;
+}
+
+@media screen and (max-width: 768px) {
+    .banner .content {
+        width: 95%;
+        font-size: 0.9em;
+    }
 }
 
 .banner .content .info {
