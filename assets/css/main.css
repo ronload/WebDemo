@@ -12,11 +12,12 @@ body {
 	font-size: 1.25em;
 	font-weight: 100;
 	line-height: 1.75em;
+    align-items: center;
 }
 
 .wrap {
-    min-height: 100%; /*外層高度100%*/
-    margin-bottom: -10%; /*隨footer高度需做調整*/
+    min-height: 100%;
+    margin-bottom: -10%;
 }
 
 .banner {
@@ -43,15 +44,15 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
     .banner #box #content {
         font-size: 0.5em;
     }
     .banner #box #btn {
         display: block;
         margin-left: 15%;
-    }
-    .footer {
-        display: none;
     }
 }
 
