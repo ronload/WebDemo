@@ -52,6 +52,7 @@ body {
     }
     .banner #box #btn {
         display: block;
+        align-items: center;
         margin-left: 15%;
     }
 }
