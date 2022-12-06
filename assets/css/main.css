@@ -57,6 +57,7 @@ body {
     }
     .banner #box #btn input {
         align-items: center;
+        text-align: center;
     }
 }
 
