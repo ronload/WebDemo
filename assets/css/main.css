@@ -55,6 +55,9 @@ body {
         align-items: center;
         margin-left: 15%;
     }
+    .banner #box #btn input {
+        align-items: center;
+    }
 }
 
 .banner #box #content #text {
