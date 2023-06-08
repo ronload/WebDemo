@@ -66,14 +66,12 @@ body {
     justify-content: center;
 }
 
-
-
 textarea {
     margin-top: 4em;
     box-sizing: border-box;
     width: 45em;
-    height: 25em;
-    border-radius: 2%;
+    height: 20em;
+    border-radius: 20px;
     background-color: rgba(0, 0, 0, .6);
     border: 0;
 	font-family: "Roboto", Helvetica, sans-serif;
@@ -87,5 +85,33 @@ textarea {
 }
 
 textarea:hover {
-    transform: scale(1.03) translateZ(0);
+    transform: scale(1.05) translateZ(0);
+}
+
+.banner #button {
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+}
+
+.banner #extract {
+    border-radius: 10px;
+    border: 0;
+}
+button {
+    width: 10em;
+    height: 2em;
+    font-size: 1.05em;
+    background-color: #1c1d26;
+    transition: transform 0.3s ease;
+    transform: translateZ(0);
+    color: #8b8a8a;
+}
+
+button:hover {
+    transform: scale(1.14) translateZ(0);
+}
+
+button:active {
+    transform: scale(0.95);
 }
