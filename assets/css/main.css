@@ -83,6 +83,7 @@ textarea {
     font-size: 1.05em;
     color: #ffffff;
     padding: 1em;
+    outline: none;
 }
 
 textarea:hover {
