@@ -12,11 +12,50 @@ function extractOutline() {
 
     // 更新網頁上的內容並以淡入效果顯示
     var textio = document.getElementById("textio");
-    $(textio).hide().html(outline).fadeIn(1000);
-
-    // 更新網頁上的內容
-    document.getElementById("textio").innerHTML = outline;
     document.getElementById("extract").innerText = "Back";
+    var button = document.getElementById("extract");
+    button.style.display = "none"; // 隐藏按钮
+    $(textio).hide().html("").fadeIn(1000); // 清空內容並淡入顯示
+
+    // 逐字顯示大綱
+    var lines = outline.split("<li>");
+    var lineIndex = 0;
+    var charIndex = 0;
+    var interval = setInterval(function() {
+        if (lineIndex < lines.length) {
+            var line = lines[lineIndex];
+            if (charIndex < line.length) {
+                // 判斷是否為標籤開始
+                if (line[charIndex] === "<") {
+                    var endIndex = line.indexOf(">", charIndex);
+                    if (endIndex !== -1) {
+                        textio.innerHTML += line.substring(charIndex, endIndex + 1);
+                        charIndex = endIndex + 1;
+                    }
+                }
+                // 判斷是否為標籤結束
+                else if (line[charIndex] === ">") {
+                    var startIndex = line.lastIndexOf("<", charIndex);
+                    if (startIndex !== -1) {
+                        textio.innerHTML += line.substring(startIndex, charIndex + 1);
+                        charIndex = charIndex + 1;
+                    }
+                }
+                // 一般文字
+                else {
+                    textio.innerHTML += line[charIndex++];
+                }
+            } else {
+                // 換行
+                textio.innerHTML += "<br><br>";
+                lineIndex++;
+                charIndex = 0;
+            }
+        } else {
+            clearInterval(interval);
+            $(button).delay(500).fadeIn(500); // 延迟后淡入按钮
+        }
+    }, 5); // 每個字顯示的間隔時間
 
     // 監聽按鈕點擊事件，當按下「回到上一頁」時重新載入頁面
     document.getElementById("extract").onclick = function() {
@@ -113,8 +152,8 @@ function generateOutline(inputText) {
     });
     
     // 構建大綱
-    var summary = rankedSentences.map(function (sentence) {
-        return sentence.sentence;
+    var summary = rankedSentences.map(function (sentence, index) {
+        return (index + 1) + ". " + sentence.sentence + ".";
     });
 
     // 將大綱轉換為條列式呈現

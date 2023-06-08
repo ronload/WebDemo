@@ -51,9 +51,22 @@ body {
         overflow-x: hidden;
     }
     .banner #box #content {
-        font-size: 0.5em;
+        margin-top: 8em;
+        font-size: 0.8em;
+    }
+    textarea {
+        width: 20em;
+        height: 30em;
+        margin: 0.5em 1.5em;
+        font-size: 0.9em;
+    }
+    .banner #button {
+        position: relative;
+        margin-top: 3em;
     }
 }
+
+
 
 .banner #box #content #text {
     font-size: 2em;
@@ -95,7 +108,7 @@ textarea:hover {
 .banner #button {
     display: flex;
     justify-content: center;
-    margin-top: 3em;
+    margin-top: 2.5em;
 }
 
 .banner #extract {
