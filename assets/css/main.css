@@ -54,6 +54,9 @@ body {
         margin-top: 8em;
         font-size: 0.8em;
     }
+    ul {
+        margin-right: -1em;
+    }
     textarea {
         width: 20em;
         height: 30em;
