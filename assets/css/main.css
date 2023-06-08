@@ -66,6 +66,10 @@ body {
     justify-content: center;
 }
 
+.banner #textio ul {
+    margin-top: 2em;
+}
+
 textarea {
     margin-top: 4em;
     box-sizing: border-box;
