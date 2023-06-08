@@ -32,16 +32,18 @@ body {
     width: 100%;
     border: 0em;
     margin: 0%;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner #box {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .banner #box #content {
-    display: flex;
-    align-items: center;
-    vertical-align: center;
-    margin-bottom: 1em;
+    margin-top: 5em;
 }
 
 @media screen and (max-width: 768px) {
@@ -54,7 +56,35 @@ body {
 }
 
 .banner #box #content #text {
-    font-size: 2.5em;
+    font-size: 2em;
     color: whitesmoke;
 	margin: 0;
+}
+
+.banner #textio {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+textarea {
+    margin-top: 4em;
+    box-sizing: border-box;
+    width: 45em;
+    height: 25em;
+    border-radius: 2%;
+    background-color: rgba(0, 0, 0, .6);
+    border: 0;
+	font-family: "Roboto", Helvetica, sans-serif;
+    resize: none;
+    transition: transform 0.3s ease;
+    transform: translateZ(0);
+    font-size: 1.05em;
+    color: #ffffff;
+    padding: 1em;
+}
+
+textarea:hover {
+    transform: scale(1.03) translateZ(0);
 }
